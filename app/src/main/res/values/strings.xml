@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RepoApp</string>
+    <string name="name">Name</string>
+    <string name="enter_repo_name">Enter Repo Name</string>
+</resources>

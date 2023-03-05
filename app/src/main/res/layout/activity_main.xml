@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:id="@+id/tv_textDiscribe"
+        android:textColor="@color/black"
+        android:text="Please enter the details below"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/name"
+        android:id="@+id/et_Name"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tv_textDiscribe"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="@string/enter_repo_name"
+        android:id="@+id/et_Reponame"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/et_Name"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/main_add_btn"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@+id/et_Reponame"
+        android:layout_height="wrap_content"/>
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/main_update_btn"-->
+<!--        android:text="Update"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_below="@+id/main_add_btn"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/main_delete_"-->
+<!--        android:text="Delete"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_below="@+id/main_update_btn"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/main_View"-->
+<!--        android:text="Delete"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_below="@+id/main_delete_"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+
+
+</RelativeLayout>
